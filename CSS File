@@ -34,6 +34,7 @@
     align-items: center;
     cursor: pointer;
     height: 120px; 
+    margin-left: 20%;
 }
 
 .navbar__menu {
@@ -51,7 +52,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 95px;
+    width: 145px;
     text-decoration: none;
     height: 100%;
     font-size: 20px;
@@ -173,7 +174,7 @@
     .button:hover {
         background-color: #191919;
     }
-    
+
 
     #mobile-menu {
         position: absolute;
@@ -242,6 +243,7 @@
     background: linear-gradient(to top, #00dcfb, #86f1ff, #fff); 
     -webkit-background-clip: text; 
     background-clip: text;
+    margin-bottom: 30px;
 }
 
 .highlight {
@@ -267,20 +269,20 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: background-color 0.5s ease;
   }
-  
+
   .main__btn:hover {
     background-color: #191919;
   }
-  
+
   @media screen and (max-width: 768px) {
     .hero__heading {
       font-size: 60px;
     }
-  
+
     .hero__description {
       font-size: 40px;
     }
-  
+
     .main__btn {
       display: flex;
       justify-content: center;
@@ -289,7 +291,7 @@
       height: auto;
       margin: 0;
     }
-  
+
     .main__btn:hover {
       background-color: #191919;
     }
@@ -361,7 +363,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: background-color 0.5s ease;
 }
-  
+
 .about__btn:hover {
     background-color:#44464a;
 }
